@@ -7,6 +7,8 @@ public class Widget {
 	/**
 	 * Create new enabled widget
 	 */
+	
+	//Another comment
 	public Widget() {
 		enabled = true;
 	}
