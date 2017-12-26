@@ -9,6 +9,7 @@ public class Widget {
 	 */
 	
 	//Another comment
+	//Another comment
 	public Widget() {
 		enabled = true;
 	}
