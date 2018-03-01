@@ -36,22 +36,17 @@ class Base {
 	//Another comment added
 	//Another comment added
 	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
-	//Another comment added
 	
 	
 	
 
     protected void run() {
+    	//Another comment added
+    	//Another comment added
+    	//Another comment added
+    	//Another comment added
+    	//Another comment added
+    	//Another comment added
         double r = Math.random();
         if (r < 0.1) {
             fail("oops");
