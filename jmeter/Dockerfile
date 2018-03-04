@@ -22,7 +22,7 @@ RUN   mkdir /jmeter \
       && rm apache-jmeter-$JMETER_VERSION.tgz
 
 # ADD all the plugins
-ADD jmeter-plugins/lib /jmeter/apache-jmeter-$JMETER_VERSION/lib
+#ADD jmeter-plugins/lib /jmeter/apache-jmeter-$JMETER_VERSION/lib
 
 # ADD the sample test
 ADD ../script sample-test
