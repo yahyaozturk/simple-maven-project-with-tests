@@ -94,7 +94,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="testName" elementType="Argument">
                 <stringProp name="Argument.name">testName</stringProp>
-                <stringProp name="Argument.value">Blazemeter Demo</stringProp>
+                <stringProp name="Argument.value">Aurea Demo</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="nodeName" elementType="Argument">
@@ -114,17 +114,17 @@
               </elementProp>
               <elementProp name="influxDBUser" elementType="Argument">
                 <stringProp name="Argument.name">influxDBUser</stringProp>
-                <stringProp name="Argument.value">jmeter</stringProp>
+                <stringProp name="Argument.value">admin</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="influxDBPassword" elementType="Argument">
                 <stringProp name="Argument.name">influxDBPassword</stringProp>
-                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.value">admin</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="influxDBDatabase" elementType="Argument">
                 <stringProp name="Argument.name">influxDBDatabase</stringProp>
-                <stringProp name="Argument.value">jmeter</stringProp>
+                <stringProp name="Argument.value">influx</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
               <elementProp name="retentionPolicy" elementType="Argument">
