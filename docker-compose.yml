@@ -17,7 +17,14 @@ services:
       - '3000:3000'
     volumes:
       - grafana_data:/var/lib/grafana
+  jmeter:
+    build: jmeter
+    links:
+      - influxdb
+    volumes:
+      - jmeter:/var/lib/jmeter
 
 volumes:
   grafana_data: {}
   influxdb_data: {}
+  jmeter_data: {}

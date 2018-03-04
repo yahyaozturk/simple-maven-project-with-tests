@@ -3,7 +3,7 @@ FROM openjdk:8-jre-slim
 MAINTAINER TestAutomationGuru
 
 # JMeter version
-ARG JMETER_VERSION=3.3
+ARG JMETER_VERSION=4.0
 
 # Install few utilities
 RUN apt-get clean && \
@@ -25,7 +25,7 @@ RUN   mkdir /jmeter \
 ADD jmeter-plugins/lib /jmeter/apache-jmeter-$JMETER_VERSION/lib
 
 # ADD the sample test
-ADD ./sample-test sample-test
+ADD ../script sample-test
 
 # Set JMeter Home
 ENV JMETER_HOME /jmeter/apache-jmeter-$JMETER_VERSION/
