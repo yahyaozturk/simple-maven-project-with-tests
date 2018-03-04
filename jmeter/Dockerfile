@@ -25,7 +25,7 @@ RUN   mkdir /jmeter \
 #ADD jmeter-plugins/lib /jmeter/apache-jmeter-$JMETER_VERSION/lib
 
 # ADD the sample test
-ADD script sample-test
+ADD scripts sample-test
 
 # Set JMeter Home
 ENV JMETER_HOME /jmeter/apache-jmeter-$JMETER_VERSION/
