@@ -34,3 +34,4 @@ ENV JMETER_HOME /jmeter/apache-jmeter-$JMETER_VERSION/
 ENV PATH $JMETER_HOME/bin:$PATH
 
 EXPOSE 60000
+ENTRYPOINT ['/bin/bash']
