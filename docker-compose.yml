@@ -22,7 +22,7 @@ services:
     links:
       - influxdb
     volumes:
-      - jmeter:/var/lib/jmeter
+      - jmeter_data:/var/lib/jmeter
 
 volumes:
   grafana_data: {}
