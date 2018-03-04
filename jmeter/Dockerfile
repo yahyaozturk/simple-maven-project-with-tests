@@ -32,3 +32,5 @@ ENV JMETER_HOME /jmeter/apache-jmeter-$JMETER_VERSION/
 
 # Add JMeter to the Path
 ENV PATH $JMETER_HOME/bin:$PATH
+
+EXPOSE 60000
