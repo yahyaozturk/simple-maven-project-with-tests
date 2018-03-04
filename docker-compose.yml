@@ -22,7 +22,7 @@ services:
     links:
       - influxdb
     stdin_open: true
-	tty: true
+    tty: true
     volumes:
       - jmeter_data:/var/lib/jmeter
 
