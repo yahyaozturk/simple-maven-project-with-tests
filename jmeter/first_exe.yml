@@ -6,7 +6,7 @@
       
   scenarios:
     with_script:
-      script: ../script/OneLoginMultipleAction.jmx
+      script: ../scripts/BytesThroughputExample.jmx
 
   modules:
     blazemeter:
