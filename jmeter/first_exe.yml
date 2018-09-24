@@ -6,7 +6,7 @@
       
   scenarios:
     with_script:
-      script: scripts/BytesThroughputExample.jmx
+      script: scripts/Demo.jmx
 
   modules:
     blazemeter:
